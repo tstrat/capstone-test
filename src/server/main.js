@@ -8,6 +8,7 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json());
 
 app.use(express.static('public'))
+app.use(express.static('dist'))
 
 const db = require('./db/client')
 db.connect()
