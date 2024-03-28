@@ -1,7 +1,7 @@
 const express = require('express')
 const usersRouter = express.Router();
 
-const {
+const {getAllUsers,
     createUser,
     getUser,
     getUserByEmail
